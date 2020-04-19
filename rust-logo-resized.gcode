@@ -12,9 +12,9 @@
 M140 S50
 M105
 M190 S50
-M104 S200
+M104 S210
 M105
-M109 S200
+M109 S210
 M82 ;absolute extrusion mode
 ; Ender 3 Custom Start G-code
 G92 E0 ; Reset Extruder
@@ -64995,11 +64995,12 @@ M84 X Y E ;Disable all steppers but Z
 M82 ;absolute extrusion mode
 M104 S0
 ;End of Gcode
-;SETTING_3 {"global_quality": "[general]\\nversion = 4\\nname = Standard Quality
-;SETTING_3  #2\\ndefinition = creality_ender3\\n\\n[metadata]\\ntype = quality_c
-;SETTING_3 hanges\\nquality_type = standard\\n\\n[values]\\nadhesion_type = skir
-;SETTING_3 t\\nsupport_enable = True\\nsupport_type = everywhere\\n\\n", "extrud
-;SETTING_3 er_quality": ["[general]\\nversion = 4\\nname = Standard Quality #2\\
-;SETTING_3 ndefinition = creality_ender3\\n\\n[metadata]\\ntype = quality_change
-;SETTING_3 s\\nquality_type = standard\\nposition = 0\\n\\n[values]\\ngradual_in
-;SETTING_3 fill_steps = 5\\ninfill_sparse_density = 90\\n\\n"]}
+;SETTING_3 {"extruder_quality": ["[general]\\nversion = 4\\nname = Standard Qual
+;SETTING_3 ity #2\\ndefinition = creality_ender3\\n\\n[metadata]\\nquality_type 
+;SETTING_3 = standard\\ntype = quality_changes\\nposition = 0\\n\\n[values]\\ngr
+;SETTING_3 adual_infill_steps = 5\\ninfill_sparse_density = 90\\nmaterial_print_
+;SETTING_3 temperature = 210\\n\\n"], "global_quality": "[general]\\nversion = 4
+;SETTING_3 \\nname = Standard Quality #2\\ndefinition = creality_ender3\\n\\n[me
+;SETTING_3 tadata]\\nquality_type = standard\\ntype = quality_changes\\n\\n[valu
+;SETTING_3 es]\\nadhesion_type = skirt\\nsupport_enable = True\\nsupport_type = 
+;SETTING_3 everywhere\\n\\n"}
